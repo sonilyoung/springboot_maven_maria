@@ -21,9 +21,9 @@ public class MainController {
 	@RequestMapping(value = "/", method=RequestMethod.GET)
 	public ModelAndView login() {
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("login");
+		mav.setViewName("loginPage");
 		
-		LoginVo result = mainService.getLoginInfo("user1");
+		//LoginVo result = mainService.getLoginInfo("user1");
 		
 		return mav;
 	}

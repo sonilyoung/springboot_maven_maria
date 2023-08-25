@@ -13,13 +13,13 @@ import com.example.demo.web.main.vo.LoginVo;
 @Service
 public class MainService {
 
-	@Autowired 
-	private MainMapper mainMapper;
+	//@Autowired 
+	//private MainMapper mainMapper;
 
-	
+	/*
 	public LoginVo getLoginInfo(String userId) {
 		return mainMapper.getLoginInfo(userId);
-	}
+	}*/
 
 
 	

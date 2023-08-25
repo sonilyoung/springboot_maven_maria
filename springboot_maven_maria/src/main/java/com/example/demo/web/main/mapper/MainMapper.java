@@ -10,6 +10,6 @@ import com.example.demo.web.main.vo.LoginVo;
 @Mapper
 public interface MainMapper {
 
-	public LoginVo getLoginInfo(String request);
+	//public LoginVo getLoginInfo(String request);
 
 }
